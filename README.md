@@ -1,4 +1,4 @@
-# Ttrend application 2.0
+# Ttrend application 2.1
 
 This is a small applicaiton which contains main and test folders.  
 Main contains application code.  
