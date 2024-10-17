@@ -15,7 +15,6 @@ environment {
                 sh 'mvn clean deploy'
             }
         }
-    }
          stage("Jar Publish") {
         steps {
             script {
@@ -41,4 +40,5 @@ environment {
             }
         }   
     }   
+}
 }
