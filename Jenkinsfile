@@ -68,7 +68,7 @@ environment {
         steps {
             script {
                echo '<--------------- Docker Publish Started --------------->'  
-                docker.withRegistry(registry, 'jfog'){
+                docker.withRegistry(registry, 'jfrog'){
                     app.push()
                 }    
                echo '<--------------- Docker Publish Ended --------------->'  
