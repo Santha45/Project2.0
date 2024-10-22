@@ -1,5 +1,5 @@
 def registry = 'https://santhask45.jfrog.io'
-   def imageName = 'santhask45.jfrog.io/docker-docker-local//devops'
+   def imageName = 'santhask45.jfrog.io/docker-docker-local/devops'
    def version   = '2.1.2'
 pipeline {
     agent {
